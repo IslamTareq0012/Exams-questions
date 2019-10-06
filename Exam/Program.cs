@@ -19,12 +19,12 @@ namespace Exam
             //}
             
 
-            AnswerList lst = new AnswerList() { new Answer('a' , "True") , new Answer('b', "false") , new Answer('c', "maybe") };
-            AnswerList lst2 = new AnswerList() { new Answer('a', "True"), new Answer('b', "false") };
-
+            AnswerList lst = new AnswerList() { new Answer('c' , "True") , new Answer('b', "false") , new Answer('a', "maybe") };
+            AnswerList lst2 = new AnswerList() { new Answer('c', "True"), new Answer('b', "false") };
+            Answer ans = new Answer('a' , "YES");
             //foreach (var item in AnswerList.pickAnswers("a b" , lst))
             //{
-                Console.WriteLine(lst2.correct(AnswerList.pickAnswers("ab", lst)));
+                Console.WriteLine(/*lst2.correct(AnswerList.pickAnswers("c b", lst))*/ ans.correct(new Answer('a',"YESsss")));
             //}
             Console.ReadKey();
         }

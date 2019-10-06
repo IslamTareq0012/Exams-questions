@@ -20,7 +20,7 @@ namespace Exam
             Answer ans = object1 as Answer;
             if ( ans != null) {
 
-                if (this.answerBody == ans.answerBody)
+                if (this.questionNumber == ans.questionNumber)
                 {
                     return true;
                 }
