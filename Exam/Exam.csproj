@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Answer.cs" />
     <Compile Include="AnswerList.cs" />
+    <Compile Include="ICorrector.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
