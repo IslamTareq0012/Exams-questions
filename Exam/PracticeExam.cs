@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Exam
 {
-    public interface ICorrector
+    class PracticeExam: ExamParent
     {
-        Boolean correct(object object1);
+        public override void show()
+        {
+            
+        }
     }
 }
